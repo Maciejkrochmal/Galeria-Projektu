@@ -1,7 +1,7 @@
 import { Carousel } from 'react-bootstrap'
-import First from '../assets/thumb.jpg'
-import Sec from '../assets/thumb2.jpg'
-import Thir from '../assets/thumb3.jpg'
+import First from '../../assets/thumb.jpg'
+import Sec from '../../assets/thumb2.jpg'
+import Thir from '../../assets/thumb3.jpg'
 
 export function Caro() {
     return(

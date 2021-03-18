@@ -5,16 +5,23 @@ import {
     Route,
 } from "react-router-dom";
 import './App.sass';
-import {NavBar} from "./components/NavBar";
-import {Caro} from "./components/Carousel";
+import {NavBar} from "./components/HomePage/NavBar";
+import {Caro} from "./components/HomePage/Carousel";
+import {HomeMiddle} from "./components/HomePage/HomeMiddle";
+import {Pracownia} from "./components/Pracownia/Pracownia";
+import {HOME, PRACOWNIA} from "./components/LinkPath";
 
 function App() {
   return (
    <Router>
        <NavBar/>
        <Switch>
-           <Route path='/' exact >
+           <Route path={HOME} exact >
                <Caro/>
+               <HomeMiddle/>
+           </Route>
+           <Route path={PRACOWNIA}>
+               <Pracownia/>
            </Route>
        </Switch>
    </Router>

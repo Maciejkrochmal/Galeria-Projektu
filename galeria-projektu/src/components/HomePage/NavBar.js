@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './NavBar.sass';
-import logo from '../assets/Logo-GP.png'
+import logo from '../../assets/Logo-GP.png'
 
 export function NavBar() {
     return(
@@ -11,7 +11,7 @@ export function NavBar() {
             </Link>
             <ul>
                 <Link to='/'> Home </Link>
-                <Link to='/'> Pracownia </Link>
+                <Link to='/pracownia'> Pracownia </Link>
                 <Link to='/'> Galerie </Link>
                 <Link to='/'> Kolekcje </Link>
                 <Link to='/'> Fotorelacje </Link>
