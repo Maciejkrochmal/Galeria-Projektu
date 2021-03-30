@@ -12,11 +12,11 @@ export function NavBar() {
             <ul>
                 <Link to='/'> Home </Link>
                 <Link to='/pracownia'> Pracownia </Link>
-                <Link to='/'> Galerie </Link>
-                <Link to='/'> Kolekcje </Link>
-                <Link to='/'> Fotorelacje </Link>
-                <Link to='/'> Publikacje </Link>
-                <Link to='/'> Kontakt </Link>
+                <Link to='/galerie'> Galerie </Link>
+                <Link to='/kolekcje'> Kolekcje </Link>
+                <Link to='/publikacje'> Fotorelacje </Link>
+                <Link to='/publikacje'> Publikacje </Link>
+                <Link to='/kontakt'> Kontakt </Link>
             </ul>
         </>
     )
